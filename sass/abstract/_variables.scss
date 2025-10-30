@@ -1,0 +1,23 @@
+$primary: #2360c3;     
+$secondary: #152743;   
+$accent: #38BDF8;      
+$background: #F8FAFC;  
+$text: #0F172A;  
+
+$theme: (
+  primary: lighten($primary,15%),
+  secondary: $secondary,
+  accent: $accent,
+  background: $background,
+  text: $text,
+);
+
+
+$font-base: 15px;
+$heading: $font-base*2;
+$subheading : $font-base*1.5;
+
+$border-radius: 4px;
+$btn-radius: $border-radius*3;
+
+
